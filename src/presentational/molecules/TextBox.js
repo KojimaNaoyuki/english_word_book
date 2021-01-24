@@ -11,7 +11,7 @@ const Div = styled.div`
 
 const TextBox = (props) => {
     return(
-        <Div>
+        <Div id={props.id}>
             <TextNormal title={props.title}>{props.children}</TextNormal>
         </Div>
     );
