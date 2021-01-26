@@ -11,8 +11,8 @@ const Div = styled.div`
 const EnglishList = (props) => {
     return(
         <Div>
-            <EnglishListBox/>
-            <EnglishListBox/>
+            <EnglishListBox textEnglishOrJapanese={0} title={'英単語'} nowPage={props.nowPage}/>
+            <EnglishListBox textEnglishOrJapanese={1} title={'日本語訳'} nowPage={props.nowPage}/>
         </Div>
     );
 }

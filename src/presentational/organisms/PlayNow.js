@@ -18,15 +18,16 @@ const PlayNow = (props) => {
         if(btnWordOn) {
             return(
                 <>
-                    <EnglishBox EnglishWordOn={props.EnglishWordOn} changeEnglishOrJapanese={() => props.changeEnglishOrJapanese()}/>
+                    <EnglishBox EnglishWordOn={props.EnglishWordOn} changeEnglishOrJapanese={() => props.changeEnglishOrJapanese()}
+                                nowPage={props.nowPage} wordCount={props.wordCount}/>
                     <MarginMin/>
-                    <NextWordBar/>
+                    <NextWordBar  changeWordPlus={() => props.changeWordPlus()} changeWordMinus={() => props.changeWordMinus()}/>
                 </>
             );
         } else if(btnWordListOn) {
             return(
                 <>
-                    <EnglishList/>
+                    <EnglishList nowPage={props.nowPage}/>
                 </>
             );
         }

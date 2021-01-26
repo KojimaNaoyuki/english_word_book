@@ -11,7 +11,7 @@ const Div = styled.div`
 
 const TextBox = (props) => {
     return(
-        <Div id={props.id}>
+        <Div id={props.id} onClick={props.changePage}>
             <TextNormal title={props.title}>{props.children}</TextNormal>
         </Div>
     );

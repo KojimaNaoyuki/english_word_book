@@ -9,7 +9,7 @@ const Div = styled.div`
 const EnglishListBox = (props) => {
     return(
         <Div>
-            <EnglishListText title={'title'}/>
+            <EnglishListText title={props.title} textEnglishOrJapanese={props.textEnglishOrJapanese} nowPage={props.nowPage}/>
         </Div>
     );
 }

@@ -17,37 +17,37 @@ const SelectLevel = (props) => {
 
             <MarginMin/>
 
-            <TextBox title={'Level 1'} id={'textBox1'}>
+            <TextBox title={'Level 1'} id={'textBox1'} changePage={() => props.changePage1()}>
                 中学一年生レベルの問題
             </TextBox>
 
             <MarginMin/>
 
-            <TextBox title={'Level 2'} id={'textBox2'}>
+            <TextBox title={'Level 2'} id={'textBox2'} changePage={() => props.changePage2()}>
                 中学卒業レベルの問題
             </TextBox>
 
             <MarginMin/>
 
-            <TextBox title={'Level 3'} id={'textBox3'}>
+            <TextBox title={'Level 3'} id={'textBox3'} changePage={() => props.changePage3()}>
                 高校卒業レベルの問題
             </TextBox>
 
             <MarginMin/>
 
-            <TextBox title={'Level 4'} id={'textBox4'}>
+            <TextBox title={'Level 4'} id={'textBox4'} changePage={() => props.changePage4()}>
                 大学入試レベルの問題
             </TextBox>
 
             <MarginMin/>
             
-            <TextBox title={'Level 5'} id={'textBox5'}>
+            <TextBox title={'Level 5'} id={'textBox5'} changePage={() => props.changePage5()}>
                 大学卒業レベルの問題
             </TextBox>
 
             <MarginMin/>
             
-            <TextBox title={'Level 6'} id={'textBox6'}>
+            <TextBox title={'Level 6'} id={'textBox6'} changePage={() => props.changePage6()}>
                 ネイティブレベルの問題
             </TextBox>
         </>

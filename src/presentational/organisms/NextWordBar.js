@@ -20,7 +20,7 @@ const MarginMin = styled.div`
 const NextWordBar = (props) => {
     return(
         <Div>
-            <Btn>Back</Btn> <MarginMin/> <Btn>Next</Btn>
+            <Btn onClick={props.changeWordMinus}>Back</Btn> <MarginMin/> <Btn onClick={props.changeWordPlus}>Next</Btn>
         </Div>
     );
 }
