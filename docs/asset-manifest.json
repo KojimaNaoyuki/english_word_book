@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/english_word_book/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/english_word_book/static/js/main.b83d4117.chunk.js",
-    "main.js.map": "/english_word_book/static/js/main.b83d4117.chunk.js.map",
-    "runtime-main.js": "/english_word_book/static/js/runtime-main.47596be6.js",
-    "runtime-main.js.map": "/english_word_book/static/js/runtime-main.47596be6.js.map",
-    "static/js/2.df119ec5.chunk.js": "/english_word_book/static/js/2.df119ec5.chunk.js",
-    "static/js/2.df119ec5.chunk.js.map": "/english_word_book/static/js/2.df119ec5.chunk.js.map",
-    "static/js/3.b5a9850d.chunk.js": "/english_word_book/static/js/3.b5a9850d.chunk.js",
-    "static/js/3.b5a9850d.chunk.js.map": "/english_word_book/static/js/3.b5a9850d.chunk.js.map",
-    "index.html": "/english_word_book/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/english_word_book/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.df119ec5.chunk.js.LICENSE.txt": "/english_word_book/static/js/2.df119ec5.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/english_word_book/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/static/js/main.bc894bc0.chunk.js",
+    "main.js.map": "/static/js/main.bc894bc0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fbff10f1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fbff10f1.js.map",
+    "static/js/2.cd6bc83e.chunk.js": "/static/js/2.cd6bc83e.chunk.js",
+    "static/js/2.cd6bc83e.chunk.js.map": "/static/js/2.cd6bc83e.chunk.js.map",
+    "static/js/3.b5a9850d.chunk.js": "/static/js/3.b5a9850d.chunk.js",
+    "static/js/3.b5a9850d.chunk.js.map": "/static/js/3.b5a9850d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.cd6bc83e.chunk.js.LICENSE.txt": "/static/js/2.cd6bc83e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47596be6.js",
-    "static/js/2.df119ec5.chunk.js",
+    "static/js/runtime-main.fbff10f1.js",
+    "static/js/2.cd6bc83e.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.b83d4117.chunk.js"
+    "static/js/main.bc894bc0.chunk.js"
   ]
 }
