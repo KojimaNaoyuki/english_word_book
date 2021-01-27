@@ -50,6 +50,8 @@ const SelectLevel = (props) => {
             <TextBox title={'Level 6'} id={'textBox6'} changePage={() => props.changePage6()}>
                 ネイティブレベルの問題
             </TextBox>
+
+            <MarginMin/>
         </>
     );
 }
