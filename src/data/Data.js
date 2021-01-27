@@ -32,8 +32,8 @@ export const DataLevel3 = (judg) => {
 }
 
 export const DataLevel4 = (judg) => {
-    const level4_English = ['dog4', 'cat4', 'cake4'];
-    const level4_Japanese = ['犬4', '猫4', 'ケーキ4'];
+    const level4_English = ['doctor', 'actor', 'return', 'war', 'meal', 'boring', 'exist', 'fresh'];
+    const level4_Japanese = ['医者', '俳優', '戻る', '戦争', '食事', '退屈な', '存在する', '新鮮な'];
 
     if(judg == 0) {
         return level4_English;
@@ -43,8 +43,8 @@ export const DataLevel4 = (judg) => {
 }
 
 export const DataLevel5 = (judg) => {
-    const level5_English = ['dog5', 'cat5', 'cake5'];
-    const level5_Japanese = ['犬5', '猫5', 'ケーキ5'];
+    const level5_English = ['popular', 'drop', 'symbol', 'leader', 'shoot'];
+    const level5_Japanese = ['人気', '落ちる', '象徴', '指導者', '撃つ'];
 
     if(judg == 0) {
         return level5_English;
@@ -54,8 +54,8 @@ export const DataLevel5 = (judg) => {
 }
 
 export const DataLevel6 = (judg) => {
-    const level6_English = ['dog6', 'cat6', 'cake6'];
-    const level6_Japanese = ['犬6', '猫6', 'ケーキ6'];
+    const level6_English = ['creature', 'rare', 'investigation'];
+    const level6_Japanese = ['生き物', 'まれな', '調査'];
 
     if(judg == 0) {
         return level6_English;
