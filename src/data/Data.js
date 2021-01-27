@@ -1,6 +1,6 @@
 export const DataLevel1 = (judg) => {
-    const level1_English = ['dog', 'cat', 'cake'];
-    const level1_Japanese = ['犬', '猫', 'ケーキ'];
+    const level1_English = ['dog', 'cat', 'cake', 'hello'];
+    const level1_Japanese = ['犬', '猫', 'ケーキ', 'こんにちは'];
 
     if(judg == 0) {
         return level1_English;
