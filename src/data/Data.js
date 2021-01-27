@@ -1,6 +1,6 @@
 export const DataLevel1 = (judg) => {
-    const level1_English = ['dog', 'cat', 'cake', 'hello'];
-    const level1_Japanese = ['犬', '猫', 'ケーキ', 'こんにちは'];
+    const level1_English = ['dog', 'cat', 'cake', 'hello', 'bus', 'basketball', 'volleyball', 'computer', 'car'];
+    const level1_Japanese = ['犬', '猫', 'ケーキ', 'こんにちは', 'バス', 'バスケットボール', 'バレーボール', 'パソコン', '車'];
 
     if(judg == 0) {
         return level1_English;
@@ -10,8 +10,8 @@ export const DataLevel1 = (judg) => {
 }
 
 export const DataLevel2 = (judg) => {
-    const level2_English = ['dog2', 'cat2', 'cake2', 'hello'];
-    const level2_Japanese = ['犬2', '猫2', 'ケーキ2', 'こんにちは'];
+    const level2_English = ['cute', 'easy', 'early', 'stop', 'move', 'history', 'alone', 'carry', 'greet', 'joke'];
+    const level2_Japanese = ['かわいい', '簡単', '早い', '止まる', '動く', '歴史', 'ひとりで', 'を運ぶ', 'あいさつ', '冗談'];
 
     if(judg == 0) {
         return level2_English;
@@ -21,8 +21,8 @@ export const DataLevel2 = (judg) => {
 }
 
 export const DataLevel3 = (judg) => {
-    const level3_English = ['dog3', 'cat3', 'cake3'];
-    const level3_Japanese = ['犬3', '猫3', 'ケーキ3'];
+    const level3_English = ['actually', 'possible', 'personal', 'smell', 'graduation', 'custom', 'wet', 'actually', 'horizon', 'judge', 'carry', 'mild', 'excited'];
+    const level3_Japanese = ['実際に', '可能', '個人', '匂い', '卒業', '慣習', '湿った', '実際に', '地平線', '判断', '運ぶ', 'おだやか', '興奮'];
 
     if(judg == 0) {
         return level3_English;

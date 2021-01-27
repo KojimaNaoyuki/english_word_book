@@ -79,7 +79,7 @@ class Main extends React.Component {
                 return(
                     <>
                         <LinkList pageName1={'Top /'} pageName2={'level5'} clickedFnction1={() => this.stateInit()}/>
-                        <PlayNow level={'Level4'} detailsText={'大学卒業レベルの問題'} btnWordOn={this.state.btnWordOn} btnWordListOn={this.state.btnWordListOn} 
+                        <PlayNow level={'Level5'} detailsText={'大学卒業レベルの問題'} btnWordOn={this.state.btnWordOn} btnWordListOn={this.state.btnWordListOn} 
                                  EnglishWordOn={this.state.EnglishWordOn} changeEnglishOrJapanese={() => this.changeEnglishOrJapanese()} changeBtnWordOrList={() => this.changeBtnWordOrList()} 
                                  nowPage={this.state.page}  wordCount={this.state.wordCount} changeWordPlus={() => this.changeWordPlus()} changeWordMinus={() => this.changeWordMinus()}/>
                     </>
