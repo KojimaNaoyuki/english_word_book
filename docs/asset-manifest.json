@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/english_word_book/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/english_word_book/static/js/main.4f8f5a85.chunk.js",
-    "main.js.map": "/english_word_book/static/js/main.4f8f5a85.chunk.js.map",
+    "main.js": "/english_word_book/static/js/main.479095c0.chunk.js",
+    "main.js.map": "/english_word_book/static/js/main.479095c0.chunk.js.map",
     "runtime-main.js": "/english_word_book/static/js/runtime-main.47596be6.js",
     "runtime-main.js.map": "/english_word_book/static/js/runtime-main.47596be6.js.map",
     "static/js/2.df119ec5.chunk.js": "/english_word_book/static/js/2.df119ec5.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.47596be6.js",
     "static/js/2.df119ec5.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.4f8f5a85.chunk.js"
+    "static/js/main.479095c0.chunk.js"
   ]
 }
